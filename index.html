@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8" />
-    <title>나의 첫 웹페이지</title>
+    <meta charset="UTF-8">
+    <title>웰시코기 웹페이지 🐶</title>
+
+    <!-- 귀여운 기본 스타일 -->
+    <style>
+        body {
+            background: #fff8e7;
+            font-family: "Comic Sans MS", "Segoe UI", sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #ff9a3c;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #444;
+        }
+
+        .corgi-icon {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            margin-top: 20px;
+            background: #ffb56c;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: #ff9a3c;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>안녕하세요! 😊</h1>
-    <p>GitHub Pages로 만든 첫 웹페이지입니다!</p>
+    <div class="container">
+        <!-- 웰시코기 아이콘 (저작권 문제 없는 무료 오픈소스 SVG) -->
+        <img class="corgi-icon" src="https://raw.githubusercontent.com/johan/svg-cleanups/master/corgi.svg" alt="웰시코기 아이콘">
+
+        <h1>웰시코기 웹페이지 🐶</h1>
+        <p>어서 와! 여기 귀여운 웰시코기의 공간이야 💛</p>
+        <p>GitHub Pages로 만든 나만의 사이트!</p>
+
+        <a class="btn" href="#">눌러봐! 🐾</a>
+    </div>
 </body>
 </html>
